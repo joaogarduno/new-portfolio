@@ -10,38 +10,81 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/3a08761389.js" crossorigin="anonymous"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
     <title>New Portfolio | Platzi Challenge</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>
+    <header class="header">
+        <img src="https://drive.google.com/file/d/1CW7XTQsOZ9OgSFXUp_6FiNUQuWvEA91i/view?usp=sharing" alt="Logo_Image">
+        <a href="./index.html">home</a>
+        <nav class="header__nav">
+            <ul class="header__nav--ul">
+                <li class="header__nav--li">
                     <a href="./contact.html">Contact</a>
                 </li>
-                <li>
+                <li class="header__nav--li">
                     <a href="./blog.html">Blog</a>
                 </li>
-                <li>
+                <li class="header__nav--li">
                     <a href="./project.html">Proyectos</a>
                 </li>
-                <li>
+                <li class="header__nav--li">
                     <a href="./about.html">Sobre mi</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main>
-        <img src="https://picsum.photos/200" alt="My_picture_of_my_Profile">
-        <h2>Joao Garduño</h2>
-        <p>This is my description</p>
+    <main class="main">
+        <div class="main--container">
+
+            <!-- IMG -->
+            <div class="img-container">
+                <img class="main--img" src="https://picsum.photos/200" alt="My_picture_of_my_Profile">
+            </div>
+
+
+            <!--  -->
+            <div class="main--info">
+                <h2 class="info--name">Joao Garduño</h2>
+                <p class="info--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quas omnis deserunt, eaque tempore hic alias id dicta recusandae temporibus ratione ducimus fugit a veritatis illo corrupti numquam. Fuga, rerum.</p>
+                <div class="main--links">
+                    <a class="main--link main--link__salmon" href="./contact.html">contacto</a>
+                    <a class="main--link main--link__transparent" href="./about.html">acerca de</a>
+                </div>
+                <div class="main--social-media">
+                    <h3>sigueme en </h3>
+                    <ul>
+                        <li>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <!-- <li>LinkedIn</li>
+                        <li>Instagram</li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
         <ul>
-            <li>ReactJS</li>
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>JavaScript</li>
+            <li>
+                <img src="" alt="ReactJS_Images">
+                <p>ReactJS</p>
+            </li>
+            <li>
+                <img src="" alt="CSS_Images">
+                <p>CSS</p>
+            </li>
+            <li>
+                <img src="" alt="HTML_Images">
+                <p>HTML</p>
+            </li>
+            <li>
+                <img src="" alt="JavaScript_Images">
+                <p>JavaScript</p>
+            </li>
         </ul>
         <footer>
             All the rights are reserver
